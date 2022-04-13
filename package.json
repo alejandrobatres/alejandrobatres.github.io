@@ -1,8 +1,14 @@
 {
+  "name": "alejandrobatres.github.io",
+  "version": "1.0.0",
+  "description": "Personal website",
   "dependencies": {
     "@11ty/eleventy": "^1.0.0"
-  }
+  },
   "scripts": {
-    "start": "npx eleventy --serve"
+    "build": "env NODE_ENV=production npx eleventy --pathprefix '_site'",
+    "serve": "npx eleventy --serve",
+    "debug": "DEBUG=* npx eleventy",
+    "test": "jest"
   }
 }
