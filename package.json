@@ -6,7 +6,7 @@
     "@11ty/eleventy": "^1.0.0"
   },
   "scripts": {
-    "build": "env NODE_ENV=production npx eleventy --pathprefix '_site'",
+    "build": "npx eleventy",
     "serve": "npx eleventy --serve",
     "debug": "DEBUG=* npx eleventy",
     "test": "jest"
