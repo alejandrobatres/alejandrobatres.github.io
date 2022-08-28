@@ -5,6 +5,7 @@ const nextConfig = {
     loader: "akamai",
     path: "",
   },
+  basePath: "nextjs-pages"
 };
 
 module.exports = nextConfig;

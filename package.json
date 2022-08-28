@@ -1,6 +1,7 @@
 {
   "scripts": {
     "dev": "next dev",
+    "dev:static": "next static",
     "build": "next build",
     "start": "next start",
     "export": "next export"
