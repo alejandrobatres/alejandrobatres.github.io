@@ -8,6 +8,10 @@
     "export": "next export"
   },
   "dependencies": {
+    "@chakra-ui/react": "^2.2.4",
+    "@emotion/react": "^11.10.0",
+    "@emotion/styled": "^11.10.0",
+    "framer-motion": "^6.5.1",
     "next": "latest",
     "react": "17.0.2",
     "react-dom": "17.0.2"
