@@ -25,7 +25,7 @@ export default function Home() {
             About
           </Heading>
           <Text>
-            Good day 🫡 I'm Alejandro. Since graduating I have been enjoying my time building projects 
+            Hello 👋 I'm Alejandro. Since graduating I have been enjoying my time building projects 
             involving Generative Adversarial Networks and Computer Vision. I'm excited to
             begin my career working with data pipelines as a Data Scientist or Software
             Engineer.
@@ -45,6 +45,7 @@ export default function Home() {
             side="2022"
             title="Codepath"
             desc="Advanced Software Engineering"
+            stack="Data Structures • Algorithms"
           />
         </Box>
         <Box my={10}>
@@ -61,7 +62,7 @@ export default function Home() {
           />
           <Experience
             side="2015-2019"
-            title="Assistant Creative Director - Batres CS"
+            title="Production Intern - Batres CS"
             desc="Created of a set of internal web applications that centralized current and historical job ticket information, as well as
             organized assets stored in a local network attached storage device."
             href="http://www.batrescs.com/"
@@ -72,6 +73,13 @@ export default function Home() {
           <Heading as="h2" size="md" md={2} mb={2}>
             Projects
           </Heading>
+          <Experience
+            side="2022"
+            title="Personal Site"
+            href="https://github.com/alejandrobatres/alejandrobatres.github.io"
+            desc="This website to display information about myself and projects that interest me."
+            stack="Next.JS"
+          />
           <Experience
             side="2022"
             title="Airline Reservation System"

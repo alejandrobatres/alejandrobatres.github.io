@@ -22,7 +22,6 @@ export const Experience = ({
       }
       <Heading as={href ? "a" : "h3"} size="sm" href={href} display="flex" alignItems="center">
         {title}
-        <Text> </Text>
         {href && (<Text>&nbsp;↗︎</Text>)}
       </Heading>
       {desc &&

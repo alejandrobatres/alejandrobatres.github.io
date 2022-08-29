@@ -4,12 +4,17 @@ export const theme = extendTheme({
   styles: {
     global: {
       'html, body': {
-        color: 'black.500',
-        bg: 'black.500',
+        color: 'white',
+        background: 'black',
         fontSize: 'md',
       },
+      a: {
+        _hover: {
+          textDecoration: 'underline',
+          color: 'lime'
+        }
+      }
     },
-
     letterSpacings: {
       tight: '-0.005em',
       normal: '0',
