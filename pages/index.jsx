@@ -1,5 +1,5 @@
 import Head from "next/head";
-import { Box, ChakraProvider, Grid, GridItem, Heading, Text } from "@chakra-ui/react";
+import { Box, ChakraProvider, Grid, GridItem, Heading, Text, Image } from "@chakra-ui/react";
 import { Experience } from "../components/experience";
 import { theme } from "../utils/theme";
 
@@ -8,10 +8,22 @@ export default function Home() {
     <ChakraProvider theme={theme}>
       <Head>
         <title>Alejandro Batres</title>
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+        <link rel="icon" href="/favicon.ico" />
       </Head>
       <Box py="115px" px={4} maxWidth={512} mx="auto">
-        <Grid fluid mb={10} alignItems="center">
-          <GridItem>
+        <Grid fluid mb={10} templateColumns="repeat(4, 1fr)" alignItems="center">
+          <GridItem colSpan={1}>
+            <Image
+              borderRadius="full"
+              width={{ base: '80%', lg: 'full' }}
+              src="/profile.png"
+              alt="Alejandro Batres"
+            />
+          </GridItem>
+          <GridItem colSpan={3}>
             <Box>
               <Heading as="h1" size="lg">
                 Alejandro Batres
@@ -78,7 +90,7 @@ export default function Home() {
             title="Personal Site"
             href="https://github.com/alejandrobatres/alejandrobatres.github.io"
             desc="This website to display information about myself and projects that interest me."
-            stack="Next.JS"
+            stack="Next.js"
           />
           <Experience
             side="2022"
