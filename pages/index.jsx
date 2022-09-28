@@ -28,7 +28,7 @@ export default function Home() {
               <Heading as="h1" size="lg">
                 Alejandro Batres
               </Heading>
-              <Text>Software Engineer</Text>
+              <Text>Software Engineering & Data Science</Text>
             </Box>
           </GridItem>
         </Grid>
@@ -78,7 +78,7 @@ export default function Home() {
             desc="Created of a set of internal web applications that centralized current and historical job ticket information, as well as
             organized assets stored in a local network attached storage device."
             href="http://www.batrescs.com/"
-            stack="Graphic & Web Design • HTML/CSS • PHP"
+            stack="Graphic & Web Design • HTML/CSS • JS/PHP"
           />
         </Box>
         <Box my={10}>
@@ -86,11 +86,11 @@ export default function Home() {
             Projects
           </Heading>
           <Experience
-            side="2022"
-            title="Personal Site"
-            href="https://github.com/alejandrobatres/alejandrobatres.github.io"
-            desc="This website to display information about myself and projects that interest me."
-            stack="Next.js"
+            side="2020"
+            title="Wildlife Severity Classifier"
+            href="https://github.com/alejandrobatres/wildfire-classification"
+            desc="Supervised learning model for classification of wildfire severity based on the burn level of surrounding vegetation."
+            stack="Scikit-Learn • Pandas • Numpy"
           />
           <Experience
             side="2022"
@@ -122,7 +122,11 @@ export default function Home() {
             title="Alejandro Batres"
             href="https://www.linkedin.com/in/alejandro-batres/"
           />
-          
+          <Experience
+            side="This Site"
+            title="Repo"
+            href="https://github.com/alejandrobatres/alejandrobatres.github.io"
+          />
         </Box>
       </Box>
     </ChakraProvider>
