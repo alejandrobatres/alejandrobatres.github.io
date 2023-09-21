@@ -39,20 +39,21 @@ export default function Home() {
           <Text>
             Hello 👋 I'm Alejandro. I am currently working as a Data Engineer working on exciting projects
             involving data pipelines and cloud services. I also enjoy my time playing around with General Adversarial Networks
-            and Computer Vision when I'm not going for long rides on my bike.
+            and Computer Vision.
           </Text>
         </Box>
         <Box my={10}>
           <Heading as="h2" size="md" md={2} mb={2}>
-            Work Experience
+            Experience
           </Heading>
           <Experience
             side="2022-Present"
             title="Data Engineer - TransUnion"
             desc="Leveraged Amazon Web Services to establish a robust data organization framework, ensuring continuous and up-to-date
-            data flow to fulfill client data requirements.."
+            data flow to fulfill client data requirements."
             href="https://www.transunion.com"
-            stack="
+            stack="AWS • Airflow • SQL • Python"
+          />
           <Experience
             side="2021-2022"
             title="App Dev Intern - Allevia"
