@@ -28,7 +28,7 @@ export default function Home() {
               <Heading as="h1" size="lg">
                 Alejandro Batres
               </Heading>
-              <Text>Software Engineering & Data Science</Text>
+              <Text>Data Engineering & ML</Text>
             </Box>
           </GridItem>
         </Grid>
@@ -37,11 +37,37 @@ export default function Home() {
             About
           </Heading>
           <Text>
-            Hello 👋 I'm Alejandro. Since graduating I have been enjoying my time building projects 
-            involving Generative Adversarial Networks and Computer Vision. I'm excited to
-            begin my career working with data pipelines as a Data Scientist or Software
-            Engineer.
+            Hello 👋 I'm Alejandro. I am currently working as a Data Engineer working on exciting projects
+            involving data pipelines and cloud services. I also enjoy my time playing around with General Adversarial Networks
+            and Computer Vision when I'm not going for long rides on my bike.
           </Text>
+        </Box>
+        <Box my={10}>
+          <Heading as="h2" size="md" md={2} mb={2}>
+            Work Experience
+          </Heading>
+          <Experience
+            side="2022-Present"
+            title="Data Engineer - TransUnion"
+            desc=""
+            href="https://www.transunion.com"
+            stack="
+          <Experience
+            side="2021-2022"
+            title="App Dev Intern - Allevia"
+            desc=" Developed an interactive user-faced mobile application using the React Native and Expo frameworks for deployment on
+            both IOS and Android with a concentration on accessibility and ease of use."
+            href="https://allevia.us/"
+            stack="React Native • AWS"
+          />
+          <Experience
+            side="2015-2019"
+            title="Production Intern - Batres CS"
+            desc="Created of a set of internal web applications that centralized current and historical job ticket information, as well as
+            organized assets stored in a local network attached storage device."
+            href="http://www.batrescs.com/"
+            stack="Graphic & Web Design • HTML/CSS • JS/PHP"
+          />
         </Box>
         <Box my={10}>
           <Heading as="h2" size="md" md={2} mb={2}>
@@ -60,27 +86,7 @@ export default function Home() {
             stack="Data Structures • Algorithms"
           />
         </Box>
-        <Box my={10}>
-          <Heading as="h2" size="md" md={2} mb={2}>
-            Work Experience
-          </Heading>
-          <Experience
-            side="2021-2022"
-            title="App Dev Intern - Allevia"
-            desc=" Developed an interactive user-faced mobile application using the React Native and Expo frameworks for deployment on
-            both IOS and Android with a concentration on accessibility and ease of use."
-            href="https://allevia.us/"
-            stack="React Native • AWS"
-          />
-          <Experience
-            side="2015-2019"
-            title="Production Intern - Batres CS"
-            desc="Created of a set of internal web applications that centralized current and historical job ticket information, as well as
-            organized assets stored in a local network attached storage device."
-            href="http://www.batrescs.com/"
-            stack="Graphic & Web Design • HTML/CSS • JS/PHP"
-          />
-        </Box>
+        
         <Box my={10}>
           <Heading as="h2" size="md" md={2} mb={2}>
             Projects
