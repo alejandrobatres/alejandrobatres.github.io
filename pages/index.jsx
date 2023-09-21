@@ -49,7 +49,8 @@ export default function Home() {
           <Experience
             side="2022-Present"
             title="Data Engineer - TransUnion"
-            desc=""
+            desc="Leveraged Amazon Web Services to establish a robust data organization framework, ensuring continuous and up-to-date
+            data flow to fulfill client data requirements.."
             href="https://www.transunion.com"
             stack="
           <Experience
