@@ -37,9 +37,7 @@ export default function Home() {
             About
           </Heading>
           <Text>
-            Hello 👋 I'm Alejandro. I am currently working as a Data Engineer working on exciting projects
-            involving data pipelines and cloud services. I also enjoy my time playing around with General Adversarial Networks
-            and Computer Vision.
+            Data Engineer building scalable data platforms, automation, and data-quality systems.
           </Text>
         </Box>
         <Box my={10}>
@@ -49,8 +47,7 @@ export default function Home() {
           <Experience
             side="2022-Present"
             title="Data Engineer - TransUnion"
-            desc="Leveraged Amazon Web Services to establish a robust data organization framework, ensuring continuous and up-to-date
-            data flow to fulfill client data requirements."
+            desc="Building scalable data platforms, automations, and data-quality solutions across TU cloud infrastructure."
             href="https://www.transunion.com"
             stack="AWS • Airflow • SQL • Python"
           />
